@@ -292,8 +292,6 @@ body{
     margin-bottom: 280px;
 }
 
-
-
 .subscribe-bg-shape{
     position: absolute;
     width: 330px;
@@ -474,7 +472,9 @@ body{
 .btn-newsletter:hover{
     color: #ff7000;
 }
-
+.newsletter-bottom-text{
+    color: #f5f5f5;
+}
 .footer-hr{
     color: #fff;
     margin-top: 60px;
@@ -484,4 +484,179 @@ body{
     color: #ffede6;
     font-size: 14px;
     font-weight: 300;
+}
+
+
+/* =================================RESPONSIVE=========================== */
+/* SMALL DEVICE */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .nav-item .nav-link{
+        color: #222754 !important;
+        font-weight: 500;
+    }
+
+    .large-text{
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #222754;
+    }
+    .banner-img{
+        width: 250px;
+    }
+    .choose-img{
+        width: 220px;
+        left: 90px;
+    }
+    .how-works-summary{
+        margin-left: 0px;
+    }
+    .why-choose-container{
+        margin: 50px 0 0 0;
+    }
+    .choose-img-bg{
+        margin-bottom: 40px;
+    }
+    .skyBlue-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .mid-level-title {
+        font-weight: 800;
+        color: #222754;
+        margin: 20px 0;
+    }
+    .btn-orange {
+        margin-bottom: 30px;
+    }
+    .bg-shape-left{
+        position: absolute;
+        width: 150px;
+        left: -30px;
+        bottom: -30px;
+    }
+    .bg-shape-right{
+        position: absolute;
+        width: 100px;
+        right: 0px;
+        bottom: -80px;
+    }
+    .small-detailed-text {
+            font-size: 14px;
+            font-weight: 300;
+            color: #7a7d98;
+            line-height: normal;
+    }
+    
+
+
+    .single-feature-left, .single-feature-right{
+        text-align: center !important;
+        margin: 0 10px 40px 10px !important;
+    }
+    .single-feature-left img, .single-feature-right img{
+        display:none
+    }
+    .feature-main-img{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 40px;   
+    }
+    .best-product-box{
+        background-image: url(../assets/best-product.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        position: relative;
+        height: 150px;
+    }
+    .best-product-title{
+        color: #fff; 
+        font-size: 20px; 
+        font-weight: 700;
+        text-align: center;
+    }
+    .btn-shop-responsive{
+        position: absolute;
+        left: 100px;
+        right: 50% !important;
+        bottom: 20px;
+    }
+
+    .gallery-container{
+        margin: 20px;
+    }
+    .subscribe-bg-shape{
+        position: absolute;
+        width: 130px;
+        right: 40px;
+        top: -120px;
+    }
+    .subscribe-section{
+        position:relative;
+        background-color: #f5f5f5 !important;
+        padding: 30px 10px;
+        height: 450px;
+        margin-bottom: 80px;
+    }
+    .subscribe-form input{
+        width: 90%;
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .subscribe-form input::placeholder{
+        font-size: 12px !important;
+    }
+    .btn-subscribe{
+        position: absolute;
+        font-size: 12px;
+        top: 0;
+        right: 5%;
+        padding: 10px 15px;
+    }
+    .btn-subscribe:hover{
+        color: #fff;
+    }
+    /* Subscibe bottom shape */
+    .faq-bg-shape-bottom{
+        position: absolute;
+        width: 105px;
+        left: -15px;
+        bottom: -70px;
+    }
+    
+    /* Controlling Video */
+    /* CSS for Video */
+    .video {
+        width: 100%;
+        border: 1px solid #ffffff;
+        border-radius: 15px;
+        height:150px;  
+    }
+
+    /* Video Wrapping */
+    .wrapper{
+        display:table;
+        position:relative;
+        width:90%;
+        margin: 0;
+        top: 150px;
+        left: 15px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+ /* style for    footer section */
+    .footer-section .col-md-4{
+        text-align: center;
+    }
+    .footer-title{
+        text-align: center;
+        margin: 30px 0;
+    }
+        
+    .footer-menu{
+        text-align: center;
+    }
+
 }
