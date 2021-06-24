@@ -1,0 +1,487 @@
+body{
+    font-family: 'Inter', sans-serif;
+    color: #7a7d98;
+}
+
+/* Top Banner Background style Start Here */
+.top-banner{
+    background-image: url(../assets/banner.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-special{
+    background-color: #f5f5f5cc;
+    padding-bottom: 40px;
+}
+
+/* Styles for Navbar */
+.nav-item .nav-link{
+    color: #fff !important;
+    font-weight: 500;
+}
+.nav-item{
+    padding-left: 20px;
+}
+
+.btn-shop{
+    background-color: #fff;
+    color: #ff8a00 !important;
+    font-weight: 500;
+    padding: 8px 30px;
+
+}
+
+.large-text{
+    font-size: 4em;
+    font-weight: 900;
+    color: #222754;
+}
+
+.banner-text-content{
+    padding: 10px 0 50px 0;
+}
+
+.btn-shop-dark{
+    background-color: #ff7000;
+    color: #fff !important;
+    font-weight: 500;
+    padding: 8px 30px;
+}
+.banner-img{
+    width: 500px;
+}
+
+/* Styles for "Why Choose section" */
+.why-choose-container{
+    margin: 200px 0 0 0;
+}
+.choose-img-bg{
+    position:relative;
+    width: 70%;
+}
+.choose-img{
+    position: absolute;
+    width: 420px;
+    left: 220px;
+}
+
+/* Styles for "How it Works" section */
+.single-service {
+    border-left: 2px solid #ff7000;
+    padding: 0 0 0 20px;
+    margin-bottom: 20px;
+}
+
+.skyBlue-title {
+    font-weight: 700;
+}
+
+.text-orange {
+    color: #ff7000;
+}
+
+
+/* mid-level-title */
+.mid-level-title {
+    font-weight: 900;
+    color: #222754;
+}
+
+.btn-orange {
+    background-color: #ff7000;
+    color: #fff;
+    padding: 10px 30px;
+}
+.btn-orange:hover {
+    color: #fff;
+}
+
+
+
+/* Styling for All Small Text */
+
+.small-detailed-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #7a7d98;
+    line-height: normal;
+}
+
+.choose-reason-text {
+    padding-right: 120px;
+}
+
+
+/* css for how-works-section */
+.how-works-shape{
+    position: relative;
+}
+.bg-shape-left{
+    position: absolute;
+    width: 300px;
+    left: -60px;
+    bottom: -40px;
+}
+.bg-shape-right{
+    position: absolute;
+    width: 210px;
+    right: -60px;
+    bottom: -210px;
+}
+.how-works-container {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.how-works-summary{
+    margin-left: 140px;
+}
+
+.card-icon {
+    width: 50px;
+}
+
+.learn-more-btn {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.learn-more-btn:hover {
+    text-decoration: underline;
+    color: #ff7000;
+}
+
+.configure-card {
+    margin-bottom: -60px !important;
+    box-shadow: 0px 0px 20px #f5f5f5;
+}
+
+
+/* Styles for "Amazing Features Section" */
+.features-container{
+    margin-top: 100px;
+}
+
+.single-feature-left{
+    position: relative;
+    margin-top: 50px;
+}
+.single-feature-left img{
+    position: absolute;
+    width: 65px;
+    top: 10px;
+    right: -75px;
+}
+
+.single-feature-right{
+    position: relative;
+    margin-top: 50px;
+}
+.single-feature-right img{
+    position: absolute;
+    width: 65px;
+    top: 10px;
+    left: -75px;
+}
+
+.feature-main-img{
+    width: 100%;
+    padding: 15px;
+}
+
+.best-product-box{
+    background-image: url(../assets/best-product.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.best-product-title{
+    color: #fff; 
+    font-size: 28px; 
+    font-weight: 700;
+}
+
+
+
+/* Styles for Gallery */
+.gallery-shape{
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 20px;
+}
+.gallery-bg-shape{
+    position: absolute;
+    top: -70px;
+    left: -70px;
+    width: 300px;
+}
+
+.gallery-container{
+    margin: 70px 100px 30px 100px;
+}
+
+.gallery-title{
+    font-size: 28px;
+    font-weight: 400;
+    color: #222754;
+}
+
+.gallery-img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.gallery-img-large{
+    width: 99%;
+    margin-bottom: 25px;
+}
+
+/* Styles for Accordion */
+.accordion-item{
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Hiding Default accordion icon */
+.accordion-button::after {
+    display: none;
+}
+
+/* adding custom style to accordion button */
+.accordion-custom-button{
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center !important;
+}
+.accordion-icon{
+    margin-top: 10px;
+}
+.accordion-button{
+    color:#222754;
+}
+.accordion-button:not(.collapsed) > .accordion-icon{
+    transform: rotate(-270deg) !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #f5f5f5;
+    box-shadow: none;
+    border-left: 3px solid #ff7000;
+}
+
+.accordion-body {
+    background-color: #f5f5f5;
+    border-left: 3px solid #ff7000;
+}
+
+.faq-img{
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+
+/* Styles for subsribe-section */
+.subscribe-section{
+    position:relative;
+    background-color: #f5f5f5 !important;
+    padding: 80px 0 10px;
+    height: 550px;
+    margin-bottom: 280px;
+}
+
+
+
+.subscribe-bg-shape{
+    position: absolute;
+    width: 330px;
+    right: 60px;
+    top: -160px;
+}
+
+.subscribe-form{
+    position: relative;
+}
+.btn-subscribe{
+    position: absolute;
+    top: 0;
+    right: 30%;
+    padding: 15px 20px;
+}
+.subscribe-form input{
+    width: 40%;
+    padding: 15px 20px;
+}
+.btn-subscribe:hover{
+    color: #fff;
+}
+
+/* Controlling Video */
+/* CSS for Video */
+.video {
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    height:420px;  
+}
+
+/* Video Wrapping */
+.wrapper{
+    display:table;
+    position:relative;
+    width:55%;
+    margin: 0;
+    top: 250px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.playpause{
+    background-image:url(../assets/playButton.png);
+    background-repeat:no-repeat;
+    width:15%;
+    height:15%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+.center-video{
+    margin:auto;
+    padding:auto;
+}
+
+
+
+/* Subscibe bottom shape */
+.faq-bg-shape-bottom{
+    position: absolute;
+    width: 305px;
+    left:-20px;
+    bottom: -130px;
+}
+
+
+
+
+/* Styles for Contact form Section */
+.contact-form-section{
+    background-image: url(../assets/contact-bg-shape.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-form{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 150px;
+}
+.contact-form form{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 18px rgba(211, 211, 211, 0.527);
+}
+
+.contact-details{
+    padding: 30px;
+}
+
+
+/* Styles for Input Field */
+.user-name, .user-email, .user-message{
+    position: relative;
+    margin-bottom: 20px;
+}
+.fa-user, .fa-envelope, .fa-edit {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: #7a7d98;
+}
+
+
+.user-name input::placeholder, .user-email input::placeholder, .user-message textarea::placeholder{
+    color: #7a7d98;
+    font-size: 14px;
+}
+.user-name input, .user-email input, .user-message textarea{
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+}
+
+
+/* Styles for Footer */
+.footer-section{
+    background-image: url(../assets/footer-banner.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0 20px;
+}
+
+.footer-logo{
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.footer-title{
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 45px;
+}
+.footer-menu-block .col-6{
+    padding: 0 6px;
+
+}
+
+.footer-menu{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+.footer-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-menu a:hover{
+    text-decoration: underline;
+}
+.newsletter-input input{
+    background-color: #f6f7f9;
+    color: #7a7d98;
+    font-size: 14px;
+}
+.newsletter-input input::placeholder{
+    
+    color: #7a7d98;
+    font-size: 14px;
+}
+
+.btn-newsletter{
+    padding: 10px 20px;
+    background-color: #f9dec9;
+    color: #ff7000;
+}
+.btn-newsletter:hover{
+    color: #ff7000;
+}
+
+.footer-hr{
+    color: #fff;
+    margin-top: 60px;
+}
+
+.copyright-text{
+    color: #ffede6;
+    font-size: 14px;
+    font-weight: 300;
+}
